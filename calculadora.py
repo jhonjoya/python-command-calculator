@@ -50,6 +50,10 @@ def encontrarPosiciones(cadenaEntrada): #Función que se encarga de extraer los 
 def extraerNumeros(cadenaEntrada): #Función que permite extraer una lista de los números contenidos en la cadena, decimales, enteros, positivos y negativos
     valido=True
     listaNumeros=[]
+    """El siguiente arbol de operaciones fracciona la cadena de caracteres con números y operaciones
+    para obtener los números disponibles para operación, realizando la división en cadenas según el
+    operador, comenzando con la potencia(^), después la división(/), sigue con la multiplicación (*),
+    continua con la suma(+) y finalizando con la resta(-)"""
     listaEntrada=cadenaEntrada.split('^')
     for l0 in listaEntrada:
         try:
