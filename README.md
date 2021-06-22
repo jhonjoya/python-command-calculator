@@ -1,3 +1,7 @@
-# Calculadora de Comandos Python
+# Python Command Line Calculator
 
-Calculadora básica para operaciones desde línea de comandos desarrollada en Python
+Basic calculator, works with funtions to read a equation from the line:
+
+`Command line [0]: `
+
+Allows the entry of most common operators like `^`, `/`, `*`, `+`and `-`. Save the data in each command line.
